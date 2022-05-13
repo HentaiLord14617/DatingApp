@@ -10,8 +10,8 @@ namespace API.Controllers
     [Route("api/[controller]")]
     public class UsersController : ControllerBase
     {
-        public DataContext _context;
-        public UsersController(DataContext context)
+        public  DataContext _context ;
+        public UsersController( DataContext context)
         {
             _context = context;
 
@@ -28,5 +28,6 @@ namespace API.Controllers
         {
             return await _context.Users.FindAsync(id);
         }
+        
     }
 }

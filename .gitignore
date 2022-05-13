@@ -10,6 +10,7 @@
 *.userosscache
 *.sln.docstates
 
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -453,3 +454,5 @@ $RECYCLE.BIN/
 !.vscode/launch.json
 !.vscode/extensions.json
 appsettings.json
+client/ssl/server.crt
+client/ssl/server.key
